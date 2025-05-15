@@ -17,9 +17,9 @@ Please include markup text to explain your analysis, graphs, etc.
 If you include a notebook, please also add an HTML version of that notebook, to facilitate review.
 
 Data dictionaries for the data can be found here:
-[Dictionary](https://nflreadr.nflverse.com/articles/dictionary_pbp.html)
-[Depth Chart Dictionary](https://nflreadr.nflverse.com/articles/dictionary_depth_charts.html)
-[Snap Counts Dictionary](https://nflreadr.nflverse.com/articles/dictionary_snap_counts.html)
-[Dictionary Rosters](https://nflreadr.nflverse.com/articles/dictionary_rosters.html)
+* [Dictionary](https://nflreadr.nflverse.com/articles/dictionary_pbp.html)
+* [Depth Chart Dictionary](https://nflreadr.nflverse.com/articles/dictionary_depth_charts.html)
+* [Snap Counts Dictionary](https://nflreadr.nflverse.com/articles/dictionary_snap_counts.html)
+* [Dictionary Rosters](https://nflreadr.nflverse.com/articles/dictionary_rosters.html)
 
 This is meant to be an open-ended/creative project, so focus your time where you see best. Most projects are submitted within 7-10 days, but please take the time that you need to show your best work. Please let me know if you have any questions along the way.  Good luck!
