@@ -9,6 +9,9 @@ __pycache__/
 # ignore big data
 data/
 
+# Mac OS X stugg
+.DS_Store/
+
 # Distribution / packaging
 .Python
 build/
