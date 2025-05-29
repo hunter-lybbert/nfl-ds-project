@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # ignore big data
-data/
+# data/
 
 # Mac OS X stugg
 .DS_Store
