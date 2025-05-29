@@ -1,25 +1,29 @@
 # nfl-ds-project
 Work done for the NFL DS interview with Swish Analytics
 
+In this repo we analyze Historical NFL game data.
+We attempt to predict the probability that the next pass play will result in a sack.
+Sacks can be a huge moment in NFL games where the momentum can totally shift or it can be the nail in the coffin.
+Hence, there is a lot of motivation to be able to predict the likelihood of a sack occuring for both the offense, defense, and even the viewers experience which is the case in the context of Swish Analytics as they are providing data for sports betting platforms.
 
-## Assignemnt
-The data file contains all plays from the 2021-2023 NFL season(s) and the associated metadata describing the data.
+The data provided includes play by play information for all games in the 2021-2023 seasons.
+Additionally there was metadata provided which contained information about team rosters in those same years, all nfl players of all time, depth charts, playing time information, and lastly advanced stats for defensive players, rushers, and passers.
 
-Please review the dataset and start outlining the way you would go about the model-building process with the goal of predicting the probability that the next pass play will result in a sack.
+Our analysis goes as follows
+1. Assess the data
+2. Build several predictive models, and finally
+3. Compare and evaluate their performances against one another
 
-We would like to see you
-1. assess the data
-2. build a predictive model
-3. evaluate that model and the quality of its predictions (with the understanding that delivering predictions with any exceptional lack of error is unlikely in this short time span)
+In [this notebook](eda.ipynb) you will find the exploratory data analysis including plots and graphs, feature engineering, and code assembled in one place.
 
-Please provide any associated data analysis (plots, graphs, etc..), feature engineering, and code assembled in the form of a python notebook.
-Please include markup text to explain your analysis, graphs, etc.
-If you include a notebook, please also add an HTML version of that notebook, to facilitate review.
-
-Data dictionaries for the data can be found here:
+##### Data Dictionaries
+The following data dictionaries were crucial in helping with the analysis:
 * [Dictionary](https://nflreadr.nflverse.com/articles/dictionary_pbp.html)
 * [Depth Chart Dictionary](https://nflreadr.nflverse.com/articles/dictionary_depth_charts.html)
 * [Snap Counts Dictionary](https://nflreadr.nflverse.com/articles/dictionary_snap_counts.html)
 * [Dictionary Rosters](https://nflreadr.nflverse.com/articles/dictionary_rosters.html)
 
-This is meant to be an open-ended/creative project, so focus your time where you see best. Most projects are submitted within 7-10 days, but please take the time that you need to show your best work. Please let me know if you have any questions along the way.  Good luck!
+
+<img src="nfl.gif" width=500>
+
+Depicted above is a nice hard hitting sack of Tom Brady.
