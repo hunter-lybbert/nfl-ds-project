@@ -38,7 +38,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}
           git add docs/
           git commit -m "Update site content via GitHub Actions" || echo "No changes to commit"
-
-          git remote -v | sed 's/x-access-token:.*/<TOKEN>@github.com/'
-          
+          git remote -v | sed 's/x-access-token:.*/<TOKEN>@github.com/'  # 👈 This should now print the full repo URL
           git push
