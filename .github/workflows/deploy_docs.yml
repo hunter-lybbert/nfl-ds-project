@@ -32,12 +32,10 @@ jobs:
           cp nfl.gif docs/
 
       - name: Commit and push to docs/
-        env:
-          TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git remote set-url origin https://x-access-token:${TOKEN}@github.com/${{ github.repository }}
+          git remote set-url origin https://x-access-token:${{ secrets.PERSONAL_TOKEN }}@github.com/${{ github.repository }}
           git add docs/
           git commit -m "Update site content via GitHub Actions" || echo "No changes to commit"
           git push
