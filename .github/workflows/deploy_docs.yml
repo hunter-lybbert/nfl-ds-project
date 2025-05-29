@@ -27,6 +27,7 @@ jobs:
       - name: Convert notebooks to HTML
         run: |
           jupyter nbconvert --to html sack_prediction.ipynb --output-dir=docs
+          mv docs/sack_prediction.html docs/index.html
 
       - name: Copy GIFs and assets to docs/
         run: |
