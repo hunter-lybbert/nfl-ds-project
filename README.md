@@ -1,5 +1,5 @@
 # nfl-ds-project
-Work done for the NFL DS interview with Swish Analytics
+This repo contains work for the NFL DS takehome assessment for Swish Analytics.
 
 In this repo we analyze Historical NFL game data.
 We attempt to predict the probability that the next pass play will result in a sack.
