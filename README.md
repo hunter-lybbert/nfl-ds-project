@@ -14,7 +14,7 @@ Our analysis goes as follows
 2. Build several predictive models, and finally
 3. Compare and evaluate their performances against one another
 
-In [this notebook](eda.ipynb) you will find the exploratory data analysis including plots and graphs, feature engineering, and code assembled in one place.
+In [this notebook](sack_prediction.ipynb) you will find the exploratory data analysis including plots and graphs, feature engineering, and code assembled in one place.
 
 ##### Data Dictionaries
 The following data dictionaries were crucial in helping with the analysis:
